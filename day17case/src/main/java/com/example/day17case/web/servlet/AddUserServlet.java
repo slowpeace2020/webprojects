@@ -39,7 +39,7 @@ public class AddUserServlet extends HttpServlet {
     userService.addUser(user);
 
     //跳转到userListServlet
-    resp.sendRedirect(req.getContextPath()+"/userListServlet");
+    resp.sendRedirect(req.getContextPath()+"/findUserByPageServlet");
 
   }
 
